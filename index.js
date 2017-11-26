@@ -14,7 +14,7 @@
 'use strict';
 const http = require('http');
 const host = 'api.worldweatheronline.com';
-const wwoApiKey = '931d80d3aed840308aa131808171811';
+const wwoApiKey = '';
 exports.itsm365Weather = (req, res) => {
   // Get the city and date from the request
   let city = req.body.result.parameters['geo-city']; // city is a required param
